@@ -1,6 +1,6 @@
 {
   "parameters": {
-    "api-version": "2023-04-01-preview",
+    "api-version": "2021-06-01",
     "subscriptionId": "0980887d-03d6-408c-9566-532f3456804e"
   },
   "responses": {
@@ -47,7 +47,12 @@
                 "Phishing",
                 "User Execution"
               ],
-              "assessmentType": "BuiltIn"
+              "assessmentType": "BuiltIn",
+              "remediationPolicy": "/providers/Microsoft.Authorization/policyDefinitions/09ce66bc-1220-4153-8104-e3f51c936913",
+              "cloudProviders": [
+                "Azure"
+              ],
+              "managementProvider": "AzurePolicy"
             }
           },
           {
@@ -75,7 +80,11 @@
                 "public": "06/01/2021"
               },
               "preview": true,
-              "assessmentType": "CustomPolicy"
+              "assessmentType": "CustomPolicy",
+              "cloudProviders": [
+                "Azure"
+              ],
+              "managementProvider": "AzurePolicy"
             }
           }
         ]

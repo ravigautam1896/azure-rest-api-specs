@@ -46,7 +46,11 @@
                 "Phishing",
                 "User Execution"
               ],
-              "assessmentType": "BuiltIn"
+              "assessmentType": "BuiltIn",
+              "cloudProviders": [
+                "Azure"
+              ],
+              "managementProvider": "AzurePolicy"
             }
           },
           {
@@ -74,7 +78,11 @@
                 "public": "06/01/2021"
               },
               "preview": true,
-              "assessmentType": "CustomPolicy"
+              "assessmentType": "CustomPolicy",
+              "cloudProviders": [
+                "Azure"
+              ],
+              "managementProvider": "AzurePolicy"
             }
           },
           {
@@ -83,7 +91,7 @@
             "type": "Microsoft.Security/assessmentMetadata",
             "properties": {
               "displayName": "My organization security assessment",
-              "description": "Assessment that my organization created to view our security assessment in Azure Security Center",
+              "description": "Assessment that my organization created to view our security assessment in Microsoft Defender for Cloud",
               "remediationDescription": "Fix it with these remediation instructions",
               "categories": [
                 "Compute"
@@ -96,7 +104,11 @@
                 "GA": "06/01/2021",
                 "public": "06/01/2021"
               },
-              "assessmentType": "CustomerManaged"
+              "assessmentType": "CustomerManaged",
+              "cloudProviders": [
+                "GCP"
+              ],
+              "managementProvider": "MDC"
             }
           }
         ]

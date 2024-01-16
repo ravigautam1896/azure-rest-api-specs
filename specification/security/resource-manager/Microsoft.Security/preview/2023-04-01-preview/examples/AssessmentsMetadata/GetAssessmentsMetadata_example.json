@@ -45,7 +45,11 @@
             "Phishing",
             "User Execution"
           ],
-          "assessmentType": "BuiltIn"
+          "assessmentType": "BuiltIn",
+          "cloudProviders": [
+            "Azure"
+          ],
+          "managementProvider": "AzurePolicy"
         }
       }
     }

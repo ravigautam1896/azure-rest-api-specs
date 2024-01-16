@@ -424,8 +424,8 @@
       "type": "object",
       "description": "The risk properties of the assessment",
       "properties": {
-        "Level": {
-          "type": "enum",
+        "level": {
+          "type": "string",
           "description": "The level of the risk",
           "enum": [
             "Low",

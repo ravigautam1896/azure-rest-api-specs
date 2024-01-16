@@ -103,7 +103,6 @@ These settings apply only when `--tag=package-preview-2023-04` is specified on t
 input-file:
   - Microsoft.Security/preview/2023-04-01-preview/assessmentMetadata.json
   - Microsoft.Security/preview/2023-04-01-preview/assessments.json
-  - Microsoft.Security/preview/2023-04-01-preview/settings.json
 ```
 ### Tag: package-2023-11-15
 

@@ -397,7 +397,7 @@
           }
         },
         "userImpact": {
-          "type": "enum",
+          "type": "string",
           "description": "The user impact of the assessment",
           "enum": [
             "Low",
@@ -1133,7 +1133,7 @@
         "cloudProviders": {
           "type": "array",
           "items": {
-            "type": "enum",
+            "type": "string",
             "description": "Cloud providers of the assessment",
             "enum": [
               "Azure",
@@ -1174,7 +1174,7 @@
           "description": "The Azure Policy definition ID that is used for remediating the assessment"
         },
         "managementProvider": {
-          "type": "enum",
+          "type": "string",
           "description": "The management provider of the assessment",
           "enum": [
             "MDC",

@@ -456,7 +456,7 @@
             ]
           }
         },
-        "attackPathReferences": {
+        "attackPathsReferences": {
           "type": "array",
           "description": "List of Attack Path IDs that effect the risk for this assessment",
           "items": {
@@ -491,22 +491,40 @@
           "type": "array",
           "description": "List of node IDs in the path",
           "items": {
-            "type": "string"
+            "$ref": "#/definitions/AssessmentRiskPathReferenceItem"
           }
         },
         "edges": {
           "type": "array",
           "description": "List of edge IDs in the path",
           "items": {
-            "type": "string"
+            "$ref": "#/definitions/AssessmentRiskPathReferenceItem"
           }
         },
         "insights": {
           "type": "array",
           "description": "List of insight IDs in the path",
           "items": {
-            "type": "string"
+            "$ref": "#/definitions/AssessmentRiskPathReferenceItem"
           }
+        }
+      }
+    },
+    "AssessmentRiskPathReferenceItem": {
+      "type": "object",
+      "description": "A single item from a contextual path that was considered for calculating an assessment risk",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "The ID of the referenced item"
+        },
+        "type": {
+          "type": "string",
+          "description": "The type of the referenced item"
+        },
+        "subjectId": {
+          "type": "string",
+          "description": "The ID of the subject of the referenced item"
         }
       }
     }

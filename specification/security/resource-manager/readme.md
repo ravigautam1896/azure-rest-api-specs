@@ -428,8 +428,6 @@ These settings apply only when `--tag=package-composite-v3` is specified on the 
 ``` yaml $(tag) == 'package-composite-v3'
 input-file:
 - Microsoft.Security/preview/2021-10-01-preview/mdeOnboardings.json
-- Microsoft.Security/preview/2021-07-01-preview/customAssessmentAutomation.json
-- Microsoft.Security/preview/2021-07-01-preview/customEntityStoreAssignment.json
 - Microsoft.Security/stable/2017-08-01/complianceResults.json
 - Microsoft.Security/stable/2024-01-01/pricings.json
 - Microsoft.Security/stable/2019-01-01/advancedThreatProtectionSettings.json

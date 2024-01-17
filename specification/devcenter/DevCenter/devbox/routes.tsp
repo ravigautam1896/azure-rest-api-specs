@@ -134,6 +134,9 @@ interface DevBoxesOperations {
     DevBox
   >;
 
+CreateDevBox is StandardResourceOperations.LongRunningResourceCreateOrReplace<DevBox>;
+
+/*
   @doc("Creates or replaces a Dev Box.")
   @finalOperation(DevBoxesOperations.GetDevBox)
   @pollingOperation(SharedOperations.GetProjectOperationStatus)
@@ -169,7 +172,7 @@ interface DevBoxesOperations {
 
       @body body?: DevBox;
     }
-  >;
+  >;*/
 
   @doc("Deletes a Dev Box.")
   @pollingOperation(SharedOperations.GetProjectOperationStatus)

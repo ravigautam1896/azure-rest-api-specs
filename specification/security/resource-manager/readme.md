@@ -95,14 +95,14 @@ tag: package-composite-v3
 The following packages may be composed from multiple api-versions.
 
 
-### Tag: package-preview-2023-04
+### Tag: package-preview-2024-02
 
-These settings apply only when `--tag=package-preview-2023-04` is specified on the command line.
+These settings apply only when `--tag=package-preview-2024-02` is specified on the command line.
 
-```yaml $(tag) == 'package-preview-2023-04'
+```yaml $(tag) == 'package-preview-2024-02'
 input-file:
-  - Microsoft.Security/preview/2023-04-01-preview/assessmentMetadata.json
-  - Microsoft.Security/preview/2023-04-01-preview/assessments.json
+  - Microsoft.Security/preview/2024-02-01-preview/assessmentMetadata.json
+  - Microsoft.Security/preview/2024-02-01-preview/assessments.json
 ```
 ### Tag: package-2023-11-15
 
@@ -456,8 +456,8 @@ input-file:
 - Microsoft.Security/preview/2023-05-01-preview/healthReports.json
 - Microsoft.Security/preview/2023-09-01-preview/securityConnectorsDevOps.json
 - Microsoft.Security/preview/2023-10-01-preview/securityConnectors.json
-- Microsoft.Security/preview/2023-04-01-preview/assessmentMetadata.json
-- Microsoft.Security/preview/2023-04-01-preview/assessments.json
+- Microsoft.Security/preview/2024-02-01-preview/assessmentMetadata.json
+- Microsoft.Security/preview/2024-02-01-preview/assessments.json
 - Microsoft.Security/stable/2017-08-01/complianceResults.json
 - Microsoft.Security/stable/2019-01-01/advancedThreatProtectionSettings.json
 - Microsoft.Security/stable/2019-08-01/deviceSecurityGroups.json
